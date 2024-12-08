@@ -12,7 +12,7 @@ body {
     text-align: center; /* Центрируем текст внутри блока */
     border: 2px solid #000; /* Добавляем рамку */
     padding: 30px; /* Добавляем отступы внутри блока */
-    background-color: #f9f9f9; /* Цвет фона блока */
+    background-color: #ffc0cb; /* Цвет фона блока */
 }
 
 .section img {
