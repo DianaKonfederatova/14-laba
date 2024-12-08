@@ -1,0 +1,57 @@
+body {
+    display: flex; /* Используем Flexbox для центрирования */
+    justify-content: center; /* Центрируем по горизонтали */
+    align-items: center; /* Центрируем по вертикали */
+    margin: 30; /* Убираем отступы по умолчанию */
+}
+
+.main {
+    font-family: Arial, sans-serif;
+    flex-direction: column; /* Располагаем элементы в колонку */
+    justify-content: center; /* Центрируем по вертикали */
+    text-align: center; /* Центрируем текст внутри блока */
+    border: 2px solid #000; /* Добавляем рамку */
+    padding: 30px; /* Добавляем отступы внутри блока */
+    background-color: #f9f9f9; /* Цвет фона блока */
+}
+
+.section img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+}
+
+.section {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eaeaea;
+    position: relative;
+    overflow: hidden;
+    flex-direction: column; /* Располагаем элементы в колонку */
+    justify-content: center; /* Центрируем по вертикали */
+    text-align: left; /* Центрируем текст внутри блока */
+    padding: 20px; /* Добавляем отступы внутри блока */
+ 
+}
+img:hover{
+  cursor:pointer;
+  transform: scale(1.1); /* Увеличение на 10% при наведении */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Тень для эффекта подъёма */
+}
+h2:hover{
+  cursor:pointer;
+  transform: scale(1.1); /* Увеличение на 10% при наведении */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Тень для эффекта подъёма */
+}
+
+.editable {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.editable:hover {
+    background-color: #d1d1d1;
+}
+
+}  
